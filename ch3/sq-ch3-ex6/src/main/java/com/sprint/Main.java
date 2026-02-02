@@ -9,6 +9,6 @@ class Main{
         Person p = context.getBean(Person.class);
 
         System.out.println("Person's name: " + p.getName());
-        System.out.println("Person's parrot : " + p.getParrot());
+        System.out.println("Person's parrot : " + p.getParrot() );
     }
 }
