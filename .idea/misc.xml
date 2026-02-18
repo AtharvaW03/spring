@@ -6,10 +6,11 @@
       <list>
         <option value="$PROJECT_DIR$/sq-ch2-ex1/pom.xml" />
         <option value="$PROJECT_DIR$/ch4/sq-ch3-ex6/pom.xml" />
+        <option value="$PROJECT_DIR$/ch4/sq-ch4-ex3/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-23" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="temurin-21" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
