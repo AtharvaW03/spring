@@ -8,11 +8,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MainController {
     @RequestMapping("/home")
+    //using request parameters to send data to the backend
     public String home(@RequestParam(required = false) String name,
                        @RequestParam(required = false) String color,
                        Model page){
 
-        if (name != null) {
+        if(name!=null){
             page.addAttribute("username", name);
         }
         if (color != null) {
